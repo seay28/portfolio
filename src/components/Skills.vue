@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <section class="skills">
+  <section id="skills">
     <div class="banner">
     <h2>Skills</h2>
     <p> Meine Fähigkeiten.</p>
