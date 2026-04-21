@@ -1,0 +1,26 @@
+@import './base.css';
+
+.tags {
+    display: flex;
+    gap: 10px;
+
+}
+
+.tags span {
+    background: #f3f3ff;
+    color: #6b62fd;
+    padding: 8px 14px;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    transition: 0.2s;
+
+}
+.tags span:hover {
+    background: #6b62fd;
+    color: #ffffff;
+    padding: 8px 16px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
