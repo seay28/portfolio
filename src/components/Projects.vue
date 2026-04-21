@@ -21,6 +21,7 @@ import Vin3 from '@/assets/Picture/vin3.png'
 import Koch1 from '@/assets/Picture/Koch1.png'
 import Koch2 from '@/assets/Picture/Koch2.png'
 import Koch3 from '@/assets/Picture/Koch3.png'
+import Match from '@/assets/Picture/match.jpg'
 import STM from '@/assets/Picture/vishnu-mohanan-unsplash.jpg'
 
 const selectedTag = ref('All')
@@ -115,7 +116,17 @@ const projects = [
     images: [
       { src: STM, alignVertical: false }
     ]
-  }
+  },
+  {
+    title: 'Work in Progress: Matchcontrol',
+    description: 'Ein Projekt aus meinem aktuellen Semester: Matchcontrol wird eine Vereinsverwaltungssoftware.',
+    tags: ['Website'],
+    technologies: ['Java', 'Springboot', 'PostgreSQL', 'Vuejs', 'Scrum',],
+    role: ['Entwickler'],
+    images: [
+      {src: Match, alignVertical: false},
+    ]
+  },
 ]
 
 const filteredProjects = computed(() => {
