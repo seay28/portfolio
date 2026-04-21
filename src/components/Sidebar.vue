@@ -1,10 +1,17 @@
 <script setup>
 const links = [
-  { label: 'About', href: '#about' },
-  { label: 'Skills', href: '#skills' },
-  { label: 'Projects', href: '#projects' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'About', target: 'about' },
+  { label: 'Skills', target: 'skills' },
+  { label: 'Projects', target: 'projects' },
+  { label: 'Contact', target: 'contact' },
 ]
+
+function scrollTo(id) {
+  const el = document.getElementById(id)
+  if (el) {
+    el.scrollIntoView({ behavior: 'smooth' })
+  }
+}
 </script>
 
 <template>
@@ -13,7 +20,8 @@ const links = [
       <a
           v-for="link in links"
           :key="link.href"
-          :href="link.href"
+          href="#"
+          @click.prevent="scrollTo(link.target)"
           class="toc-link"
       >
         {{ link.label }}
