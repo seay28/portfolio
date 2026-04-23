@@ -24,6 +24,7 @@
       </a>
 
     </div>
+    <a href="https://www.flaticon.com/free-icons/lotus" title="lotus icons">Lotus icons created by Freepik - Flaticon</a>
   </footer>
 </template>
 
@@ -49,6 +50,7 @@ footer {
   justify-content: center;
   gap: 15px;
   flex-wrap: wrap;
+  margin-bottom: 2rem;
 }
 
 

@@ -13,7 +13,7 @@
 
 
       <br>
-      <h3>Meine Ziele</h3>
+      <h2>Meine Ziele</h2>
       <ul>
         <li>Mein Technisches Know-How erweitern</li>
         <li>Meine Fähigkeiten als Softwareentwickler kontinuierlich verbessern und mich auf moderne Entwicklungsmethoden spezialisieren</li>
@@ -29,6 +29,9 @@
 
 
 <style scoped>
+h1 , h2{
+  font-weight: bold;
+}
 .hero{
   display:flex;
   align-items:center;
@@ -38,7 +41,7 @@
 }
 
 .hero-img{
-  width:250px;
+  width:25%;
   border-radius:50%;
 }
 

@@ -200,6 +200,7 @@ h2 {
 }
 h3{
   margin-bottom: 5px;
+  font-size: 1.5rem;
   color: #6b62fd;
 }
 
@@ -252,6 +253,7 @@ h3{
 .card p {
   margin-bottom: 14px;
   line-height: 1.5;
+  color: black;
 }
 
 .tags {

@@ -48,6 +48,8 @@ import Sidebar from "@/components/Sidebar.vue";
     flex-direction: column;
   }
 
+
+
   .content {
     padding: 20px;
   }
